@@ -1,0 +1,12 @@
+{
+	"version": 2,
+	"public": true,
+	"builds": [ 
+		{ "src": "*.js", "use": "@now/node" }
+	],
+	"routes": [
+		{ "src": "/", "dest": "/index.js" },
+		{ "src": "/([^/]+)", "dest": "/?loc=$1" }
+	],
+	"regions": ["hnd1","sfo1"]
+}

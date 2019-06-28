@@ -1,0 +1,8 @@
+.git/*
+.gitignore
+.nowignore
+README.md
+radar_index.html
+parse_index.js
+data/*
+images/*
