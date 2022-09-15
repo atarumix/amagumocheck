@@ -8,5 +8,5 @@
 		{ "src": "/", "dest": "/index.js" },
 		{ "src": "/([^/]+)", "dest": "/?loc=$1" }
 	],
-	"regions": ["hnd1","sfo1"]
+	"regions": ["hnd1"]
 }
