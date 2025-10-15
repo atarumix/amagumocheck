@@ -136,7 +136,7 @@ module.exports = async (req, res) => {
     res.end(buf);
   } catch (err) {
     console.log(err);
-    buf = '{"text": "request failed."}';
+    let buf = '{"text": "request failed."}';
     res.writeHead(200, {'Content-Type': 'application/json' });
     res.end(buf);
   }
